@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="14",labelfontname="Helvetica",labelfontsize="14"];
+  node [fontname="Helvetica",fontsize="14",shape=record];
+  rankdir="LR";
+  Node1 [label="modules.Module",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodules_1_1Module.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node2 [label="modules.Encounter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodules_1_1Encounter.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node3 [label="modules.Monster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodules_1_1Monster.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node4 [label="modules.Npc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodules_1_1Npc.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="14",style="solid",fontname="Helvetica"];
+  Node5 [label="modules.PlotArc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmodules_1_1PlotArc.html"];
+}

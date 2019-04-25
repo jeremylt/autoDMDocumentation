@@ -1,0 +1,9 @@
+digraph "aws_code/lambda" {
+  compound=true
+  node [ fontsize="14", fontname="Helvetica"];
+  edge [ labelfontsize="14", labelfontname="Helvetica"];
+  subgraph clusterdir_ea9d3e6ad906661fafaad79121dae9fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="aws_code" fontname="Helvetica", fontsize="14", URL="dir_ea9d3e6ad906661fafaad79121dae9fb.html"]
+  dir_93e1d30e9029a10f68a5fe30d06569e4 [shape=box, label="lambda", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_93e1d30e9029a10f68a5fe30d06569e4.html"];
+  }
+}
